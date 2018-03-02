@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.TubTub.CSharp", "UnityVS.TubTub.CSharp.csproj", "{01ACF816-6B9B-43C1-B777-270D99A462FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.TubTub.CSharp.Plugins", "UnityVS.TubTub.CSharp.Plugins.csproj", "{2CDA8D07-8F8C-68D1-7B19-214C18382F2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01ACF816-6B9B-43C1-B777-270D99A462FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01ACF816-6B9B-43C1-B777-270D99A462FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01ACF816-6B9B-43C1-B777-270D99A462FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01ACF816-6B9B-43C1-B777-270D99A462FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CDA8D07-8F8C-68D1-7B19-214C18382F2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CDA8D07-8F8C-68D1-7B19-214C18382F2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CDA8D07-8F8C-68D1-7B19-214C18382F2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CDA8D07-8F8C-68D1-7B19-214C18382F2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

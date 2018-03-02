@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{7D60E05E-823D-2D5B-B9D1-1B6B4615BBB3}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_1;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\BoatScripts\BoatCollision.cs" />
+     <Compile Include="Assets\Scripts\BoatScripts\BoatHealth.cs" />
+     <Compile Include="Assets\Scripts\BoatScripts\BoatMovement.cs" />
+     <Compile Include="Assets\Scripts\BoatScripts\Projectile.cs" />
+     <Compile Include="Assets\Scripts\EnemyAI\EnemyBoatMovement.cs" />
+     <Compile Include="Assets\Scripts\EnemyAI\EnemyCannonControl.cs" />
+     <Compile Include="Assets\Scripts\EnemyAI\EnemyFire.cs" />
+     <Compile Include="Assets\Scripts\EnemyAI\EnemyHealth.cs" />
+     <Compile Include="Assets\Scripts\EnemyAI\EnemyProjectile.cs" />
+     <Compile Include="Assets\Scripts\EnemyAI\SpinnerControl.cs" />
+     <Compile Include="Assets\Scripts\EnemyAI\SpinnerFireControl.cs" />
+     <Compile Include="Assets\Scripts\GameAndLevelManagement\CurrentLevelStats.cs" />
+     <Compile Include="Assets\Scripts\GameAndLevelManagement\GameManager.cs" />
+     <Compile Include="Assets\Scripts\GameAndLevelManagement\LevelSetup.cs" />
+     <Compile Include="Assets\Scripts\GameAndLevelManagement\LoadGameStats.cs" />
+     <Compile Include="Assets\Scripts\PlayerScripts\CameraPosition.cs" />
+     <Compile Include="Assets\Scripts\PlayerScripts\CameraRotate.cs" />
+     <Compile Include="Assets\Scripts\PlayerScripts\KillPlayerUnderwater.cs" />
+     <Compile Include="Assets\Scripts\PlayerScripts\PlayerCollisionDetection.cs" />
+     <Compile Include="Assets\Scripts\PlayerScripts\PlayerRotate.cs" />
+     <Compile Include="Assets\Scripts\PlayerScripts\SmoothFollowC.cs" />
+     <Compile Include="Assets\Scripts\TutorialCameraPan.cs" />
+     <Compile Include="Assets\Scripts\UI\MainMenu.cs" />
+     <Compile Include="Assets\Scripts\UI\PauseMenu.cs" />
+     <Compile Include="Assets\Scripts\UI\ShopMenu.cs" />
+     <Compile Include="Assets\Scripts\UI\TutorialUI.cs" />
+     <Compile Include="Assets\Scripts\Utilities\DestroyAfterTimer.cs" />
+     <Compile Include="Assets\Scripts\Utilities\DisplayMessage.cs" />
+     <Compile Include="Assets\Scripts\Utilities\GateOpener.cs" />
+     <Compile Include="Assets\Scripts\Utilities\KeepOnLoad.cs" />
+     <Compile Include="Assets\Scripts\Utilities\SetToWaterHeight.cs" />
+     <Compile Include="Assets\Scripts\Water\WaveGenerator.cs" />
+     <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
+     <None Include="Assets\Materials\Shaders\ToonWater.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+     <None Include="Assets\Materials\Shaders\Bubble.shader" />
+     <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularSmooth.shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+     <None Include="Assets\Materials\Shaders\ToonBubble.shader" />
+     <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularDisplacement.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{E5F1AE1E-5116-7D69-5D4C-821B68690D04}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{1B2AE984-7AA9-014F-C529-A7EB5A9236EA}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

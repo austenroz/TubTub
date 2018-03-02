@@ -1,0 +1,11 @@
+C:\Users\AustenR\Game Development\TubTub\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll
+C:\Users\AustenR\Game Development\TubTub\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+C:\Users\AustenR\Game Development\TubTub\Temp\UnityVS_bin\Debug\Assembly-UnityScript-firstpass.dll
+C:\Users\AustenR\Game Development\TubTub\Temp\UnityVS_bin\Debug\UnityEditor.dll
+C:\Users\AustenR\Game Development\TubTub\Temp\UnityVS_bin\Debug\UnityEngine.dll
+C:\Users\AustenR\Game Development\TubTub\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\AustenR\Game Development\TubTub\Temp\UnityVS_bin\Debug\UnityEngine.xml
+C:\Users\AustenR\Game Development\TubTub\Temp\UnityVS_bin\Debug\UnityEditor.xml
+C:\Users\AustenR\Game Development\TubTub\obj\Debug\UnityVS.TubTub.CSharp.csprojResolveAssemblyReference.cache
+C:\Users\AustenR\Game Development\TubTub\obj\Debug\Assembly-CSharp.dll
+C:\Users\AustenR\Game Development\TubTub\obj\Debug\Assembly-CSharp.pdb
